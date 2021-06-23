@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HOME</title>
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+	<style>
+		body
+		{
+			font-family: century gothic;
+			background-color:  ;
+		}
+		.navbar-default
+		{
+			font-color: white;
+           background-color: #0a043c;
+		}
+		
+
+		.slider{
+  margin-top: 0px;
+  overflow: hidden;
+  height: 300px;
+  width: 100%;
+}
+
+@-webkit-keyframes slide_animation{
+  0% {left: 0px;}
+  10% {left: 0px;}
+  20%{left: 1200px;}
+  30%{left: 1200px;}
+  40%{left: 2400px;}
+  50%{left: 2400px;}
+  60%{left: 1200px;}
+  70%{left: 1200px;}
+  80%{left: 0px;}
+  90%{left: 0px;}
+  100%{left: 0px;}
+}
+.auto-slide{
+  width: 3600px;
+  height: 800px;
+  margin: 0 0 0 -2400px;
+  position: relative;
+  -webkit-animation-name: slide_animation;
+  -webkit-animation-duration: 33s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: running;
+}
+.img-container{
+  height: 800px;
+  width: 1200px;
+  position: relative;
+  float: left;
+}
+
+
+
+/*.wrapper{
+ padding-top: 40px;
+ height: 100vh;
+}*/
+.wrapper .team-member{
+  padding-top: 80px;
+}
+.team{
+  padding-top: 30px;
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
+.team .team-member{
+  background: white;
+  margin-right: 20px;
+  width: 500px;
+  color: black;
+  position: relative;
+  box-shadow: 5px 8px 8px 5px #888888;
+  border-radius: 10px;
+}
+.team .team-member h3{
+  text-align: center;
+  color: #f40552;
+  font-size: 26px;
+  margin-top: 30px;
+}
+.team .team-member p{
+ justify-content: center;
+  font-size: 15px;
+  margin-left: 7px;
+  margin-right: 5px;
+}
+.team .team-member p.role{
+  text-align: center;
+  color: #f40552;
+  text-decoration: underline;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 12px 0;
+  font-weight: 700;
+}
+.team .team-member .team-img{
+  height: 150px;
+  width: 150px;
+ border-radius: 50%;
+ position: absolute;
+ top: -60px;
+ left: 35%;
+ translate: transformX(-50%);
+ background: #fff;
+ padding: 10px;
+}
+.team-img img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+</style>
+</head>
+
+<body>
+	<nav class="navbar navbar-default">
+  <div class="container">
+
+    <div class="navbar-header">
+    <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+  </button>
+   <a class="navbar-brand" href="#">Welcome</a>
+</div>
+
+<!-- Coolect the nav links, forms and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+<ul class="nav navbar-nav navbar-right">
+	<li><a href="#">Home</a></li>
+	<li><a href="#">Services</a></li>
+	<li><a href="#">contact</a></li>
+	<li><a href="#">About us</a></li>
+	<li><div class="dropdown" style="padding-top: 8px;">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style="background-color: transparent; border: none;">Login
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Login as Admin</a></li>
+      <li><a href="#">Login as Teacher</a></li>
+      <li><a href="#">Login as Student</a></li>
+    </ul>
+  </div></li>
+</ul>
+</div>
+</div>
+</nav>
+
+
+
+
+
+<div class="banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<div class="banner-text" style="margin-top: px;">
+					<h1>Learn On Demand</h1>
+				</div><br>
+
+					<div class="row" style="background-color: white; box-shadow: 5px 8px 8px #888888; border-radius: 20px; height: 100px; width: 500px;">
+						<div class="col-md-3 col-sm-3">
+							<div class="banner-img">
+							<i class="fas fa-chalkboard" style="font-size: 50px; padding-top: 20px;"></i>
+						   </div>
+					    </div>
+					    <div class="banner-text" style="padding-top: 35px; font-size: 17px;">
+						  <p>Work Smarter Not Harder</p>
+						</div>
+				    </div><br><br><br>
+
+				    <div class="row" style="background-color: white; box-shadow: 5px 8px 8px #888888; border-radius: 20px; height: 100px; width: 500px;">
+						<div class="col-md-3 col-sm-3">
+							<div class="banner-img">
+							<i class="fas fa-chalkboard-teacher" style="font-size: 50px; padding-top: 20px;"></i>
+						   </div>
+					    </div>
+					    <div class="banner-text" style="padding-top: 20px; font-size: 17px; margin-left: 0px;">
+						   	<p>Make E-learning Sounds Like its a conversation between teachers & students</p>
+						</div>
+				    </div><br><br>
+
+				    <div class="row" style="background-color: white; box-shadow: 5px 8px 8px #888888; border-radius: 20px; height: 100px; width: 500px;">
+						<div class="col-md-3 col-sm-3">
+							<div class="banner-img">
+							<i class="fas fa-chalkboard-teacher" style="font-size: 50px; padding-top: 20px;"></i>
+						   </div>
+					    </div>
+					    <div class="banner-text" style="padding-top: 20px; font-size: 17px; margin-left: 0px;">
+						   	<p>Make E-learning Sounds Like its a conversation between teachers & students</p>
+						</div>
+				    </div>			
+			</div>
+
+			<div class="col-md-6 col-sm-6 hidden-xs">
+				<div class="banner-img">
+					<img src="https://www.netclipart.com/pp/m/133-1336496_student-girl-png-girl-with-laptop-png.png" style="height: 500px; width: 600px; margin-top: 10px;">
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div><br><br>
+
+
+
+                                   <!-- Carosel -->
+
+      <div class="slider">
+        <div class="auto-slide">
+            <div class="img-container">
+               <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8Y291cnNlfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80">
+            </div>
+
+            <div class="img-container">
+               <img src="https://play.vidyard.com/PwBDHfRJTCkFs45sNFfDJr.jpg">
+            </div>
+
+            <div class="img-container">
+              <img src="https://d1.awsstatic.com/training-and-certification/page-images/images-learnabout-machine-learning.c18db3323d34648dadefe11885afc106be4afd35.png">
+            </div>
+
+         </div>
+       </div><br><br><br>
+
+
+
+
+                                    <!-- testimonials -->
+
+
+ <div class="wrapper">
+       <div class="team">
+         <div class="team-member">
+           <div class="team-img">
+             <img src="top.jpg" alt="team-member-img">
+           </div>
+           <h3>Name</h3>
+           <p class="role">Head of company</p>
+           <p>I am Pradnya Arun Basarikatti. I am learner, and currently perceiving degree in the department of Computer Science and Engineering. I have developed this shopping website for shoes lover, to make online shopping easy.</p>
+         </div>
+         <div class="team-member">
+           <div class="team-img">
+             <img src="top.jpg" alt="team-member-img">
+           </div>
+           <h3>Name</h3>
+           <p class="role">Tester</p>
+           <p>I am Pradnya Arun Basarikatti. I am learner, and currently perceiving degree in the department of Computer Science and Engineering. I have developed this shopping website for shoes lover, to make online shopping easy.</p>
+         </div>
+       </div>
+     </div>
+
+
+
+
+
+                                      <!-- footer code -->
+
+<footer class="bg-light text-dark pt-5 pb-4" style="margin-top: 100px; background-color: white; box-shadow: 20px 0 20px 0px;">
+	<div class="container text-center text-md-left">
+		<div class="row text-center text-md-left">
+			<div class="col-sm-3 col-lg-3 col-xl-3 mx-auto mt-3">
+				<h5 class="text-uppercase mb-4 font-weight-bold text-info" style="color: black; margin-top: 30px;">About Us</h5>
+				<hr class="mb-4">
+				<p>our educational website provide with various couses internships and lot more that can help you to upskill uour knowledge and continuing upgrading.</p>
+			</div>
+
+			<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+				<h5 class="text-uppercase mb-4 font-weight-bold text-info" style="color: black; margin-top: 30px;">Let Us Help</h5>
+				<hr class="mb-4">
+				<p>
+					<a href="#" class="text-dark" style="text-decoration: none;">Your Account</a>
+				</p>
+				<p>
+					<a href="#" class="text-dark" style="text-decoration: none;">Manage your content and devices</a>
+				</p>
+				<p>
+					<a href="#" class="text-dark" style="text-decoration: none;">Help</a>
+				</p>
+			</div>
+
+			<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+				<h5 class="text-uppercase mb-4 font-weight-bold text-info" style="color: black; margin-top: 30px;">Contact</h5>
+				<hr class="mb-4">
+				<ul class="list-unstyled">
+				<p>
+					<li class="fas fa-home mr-3" style="text-decoration: none; margin-right: 10px;"></li>Gadhinglaj 416502, India
+				</p>
+				<p>
+					<li class="fas fa-envelope mr-3" style="text-decoration: none; margin-right: 10px;"></li>abc@gmail.com
+				</p>
+				<p>
+					<li class="fas fa-phone mr-3" style="text-decoration: none; margin-right: 10px;"></li> +02327 123237
+				</p>
+				</ul>
+			</div>
+
+			<div class="row d-flex justify-content-center" style="margin-top: 50px;">
+				<div class="text-center">
+					<ul class="list-unstyled list-inline">
+						<li class="list-inline-item">
+							<a href="#" class="my-2"><i class="fab fa-facebook" style="color: black;"></i></a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#" class="my-2"><li class="fab fa-instagram-square" style="color: black;"></li></a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#" class="my-2"><i class="fab fa-youtube" style="color: black;"></i></a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#" class=""><li class="fab fa-twitter" style="color: black;"></li></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+
+
+			<hr class="mb-4">
+			<div class="row d-flex justify-content-center" style="background-color: white; color: black; padding-top: 5px;">
+				<div>
+					<p>Copyright 2021 All Rights Reserved By:
+						<a href="#" style="text-decoration: none;">
+                        <strong class="text-info">The providers</strong>
+                        </a>
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script>
+$(document).ready(function(){
+	$(".wish-icon i").click(function(){
+		$(this).toggleClass("fa-heart fa-heart-o");
+	});
+});	
+</script>
+</body>
+</html>
+
+
+
+
+                                              <!-- Rough -->
+
+<!-- https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ68kbKDq32igCDbB6wqybftSTAF8qtcvG8ww&usqp=CAU -->
+
+
+<!-- 	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					<ol class="Carousel-indicator">
+						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="row">
+								<div class="col-md-4">
+									<div class="single-box">
+										<img class="img-area" src="top.jpg">
+										<div class="img-text">
+											<h2>Akshay Kumar</h2>
+											<p>Make E-learning Sounds Like its a conversation between teachers & students</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4">
+									<div class="single-box">
+										<img class="img-area" src="top.jpg">
+										<div class="img-text">
+											<h2>Akshay Kumar</h2>
+											<p>Make E-learning Sounds Like its a conversation between teachers & students</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4">
+									<div class="single-box">
+										<img class="img-area" src="top.jpg">
+										<div class="img-text">
+											<h2>Akshay Kumar</h2>
+											<p>Make E-learning Sounds Like its a conversation between teachers & students</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col-md-4">
+									<div class="single-box">
+										<img class="img-area" src="top.jpg">
+										<div class="img-text">
+											<h2>Akshay Kumar</h2>
+											<p>Make E-learning Sounds Like its a conversation between teachers & students</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4">
+									<div class="single-box">
+										<img class="img-area" src="top.jpg">
+										<div class="img-text">
+											<h2>Akshay Kumar</h2>
+											<p>Make E-learning Sounds Like its a conversation between teachers & students</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4">
+									<div class="single-box">
+										<img class="img-area" src="top.jpg">
+										<div class="img-text">
+											<h2>Akshay Kumar</h2>
+											<p>Make E-learning Sounds Like its a conversation between teachers & students</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+ -->
